@@ -1,0 +1,7 @@
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name         = "Google Chrome"
+stereotype           = "{\"browserName\": \"chrome\", \"browserVersion\": \"126\", \"platformName\": \"MAC\", \"goog:chromeOptions\": {\"binary\": \"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\"}}"
+webdriver-executable = 'storage/drivers/chromedriver'
